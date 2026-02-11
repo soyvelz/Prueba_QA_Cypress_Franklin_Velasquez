@@ -1,32 +1,32 @@
-# QA Automation Project - SauceDemo  - Franklin Velasquez.
+# QA Automation Project - E2E & API Testing - Franklin Velasquez
 
-Este repositorio contiene una solucion de automatización de pruebas de extremo a extremo (E2E) para el flujo de negocio de **SauceDemo**, desarrollada con un enfoque en robustez y mantenibilidad.
+Este repositorio contiene una solución de automatización integral que incluye pruebas de extremo a extremo (E2E) para **SauceDemo** y pruebas de **APIs** para **PetStore**, desarrollada con un enfoque en robustez y mantenibilidad.
 
-## Descripcion del Proyecto
-El objetivo principal es validar la integridad del flujo de compra critico. La automatizacion asegura que los componentes del sistema interactuen correctamente desde la **autenticación** hasta la **confirmación de la orden**.
+## Descripción del Proyecto
+El objetivo es validar la integridad de los procesos críticos de negocio y la estabilidad de las interfaces de programación de aplicaciones.
 
 ### Funcionalidades Automatizadas:
-* **Modulo de Autenticacion:** Validación de login con diversos perfiles de usuario.
-* **Gestion de Carrito:** Selección, agregación y verificación de productos en tiempo real.
-* **Proceso de Checkout:** Validación de formularios de envío y flujo completo de pago.
-* **Verificacion de Resultados:** Confirmacion de estados finales y mensajes de éxito del sistema.
+* **E2E - SauceDemo:** Flujo completo desde la autenticación hasta la confirmación de la orden utilizando selectores `data-test`.
+* **API - PetStore:** Validación de servicios REST (POST, GET, PUT) incluyendo la creación de registros y filtrado por estados (disponible/vendido).
+* **Gestión de Carrito:** Selección y verificación de productos en tiempo real.
+* **Verificación de Resultados:** Confirmación de códigos de estado HTTP y mensajes de éxito en la interfaz.
 
-## Stack Tecnologico
+## Stack Tecnológico
 * **Framework:** Cypress
 * **Lenguaje:** JavaScript (ES6+)
 * **Control de Versiones:** Git / GitHub
-* **Arquitectura:** Pruebas E2E con selectores basados en **atributos de datos (data-test)**.
+* **Arquitectura:** Pruebas E2E y API en una misma suite de pruebas.
 
 ## Ejecución de Pruebas
 Para replicar el entorno de pruebas localmente, siga estas instrucciones:
 
-1. **Clonacion:**
-   `git clone https://github.com/soyvelz/Prueba_QA_Cypress_Franklin_Velasquez.git`
+1. **Clonación:**
+   git clone https://github.com/soyvelz/Prueba_QA_Cypress_Franklin_Velasquez.git
 
-2. **Instalacion de Dependencias:**
-   `npm install`
+2. **Instalación de Dependencias:**
+   npm install
 
-3. **Ejecucion:**
+3. **Ejecución:**
    * **Modo Interactivo:** `npx cypress open`
    * **Modo Headless:** `npx cypress run`
 
