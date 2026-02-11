@@ -1,0 +1,11 @@
+HALLAZGOS Y CONCLUSIONES - PRUEBA TECNICA QA
+
+1. AUTOMATIZACION E2E (SauceDemo):
+- Se validó el flujo completo de compra con éxito.
+- Hallazgo: El uso de atributos 'data-test' facilitó la creación de selectores únicos y estables, reduciendo el mantenimiento futuro de la prueba.
+- Conclusión: El sistema responde correctamente a las validaciones de éxito tras finalizar la orden.
+
+2. AUTOMATIZACION DE APIS (PetStore):
+- Se verificaron los endpoints de POST, GET y PUT para la gestión de mascotas.
+- Hallazgo: La API permite la actualización de estados y nombres mediante PUT, y la persistencia de datos se validó correctamente mediante filtros por estado.
+- Conclusión: Los servicios cumplen con los códigos de estado HTTP 200 esperados y devuelven estructuras JSON consistentes.
