@@ -26,3 +26,4 @@ describe('Prueba E2E - SauceDemo', () => {
     cy.get('.complete-header').should('contain', 'Thank you for your order!')
   })
 })
+
