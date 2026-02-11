@@ -1,0 +1,15 @@
+{
+  "name": "prueba_qa_cypress_franklin_velasquez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.10.0"
+  }
+}
