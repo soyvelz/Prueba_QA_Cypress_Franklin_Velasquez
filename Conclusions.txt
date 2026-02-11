@@ -1,0 +1,28 @@
+--------------------------------------------------
+FINDINGS AND CONCLUSIONS - QA TECHNICAL TEST
+--------------------------------------------------
+
+1. E2E AUTOMATION (SauceDemo):
+- Successfully validated the complete purchase flow.
+- Finding: The use of 'data-test' attributes facilitated the creation of 
+  unique and stable selectors, reducing future test maintenance.
+- Conclusion: The system correctly responds to success validations after 
+  order completion.
+
+2. API AUTOMATION (PetStore):
+- Verified POST, GET, and PUT endpoints for pet management.
+- Finding: The API allows status and name updates via PUT, and data 
+  persistence was correctly validated through status filters.
+- Conclusion: Services comply with expected HTTP 200 status codes and 
+  return consistent JSON structures.
+
+--------------------------------------------------
+TECHNICAL VERSATILITY NOTE:
+--------------------------------------------------
+Cypress was used due to its efficiency in modern environments; 
+however, I possess the technical expertise to implement equivalent 
+solutions using Selenium WebDriver (Java/Python), among others. 
+
+This allows me to seamlessly integrate into various technological 
+ecosystems according to the client's or project's standards.
+------------------------------------------------
